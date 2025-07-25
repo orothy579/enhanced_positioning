@@ -1,1 +1,22 @@
-# enhanced_positioning
+# GPS-IMU Data Fusion Path Estimator
+
+설명: Kalman Filter 센서 퓨전 알고리즘을 통해 위치 정확도 향상 프로그램 개발
+
+사용 기술
+
+- 프로그래밍 언어: Python
+  - 라이브러리 : Python matplotlib, Slider, numpy
+- 수학적 모델: Kalman Filter 센서 데이터 Fusion 알고리즘
+
+주요 기능:
+
+- Kalman Filter의 예측 및 업데이트 과정과, 각 센서 데이터의 역할을 설명합니다.
+- Python matplotlib, Slider라이브러리를 활용한 실시간 시뮬레이션
+
+성과 :
+
+- 위치 정확도 향상: GPS와 IMU 데이터를 융합하여 위치 정확도 20% 향상
+- 시간 절감: 시뮬레이션을 활용해 Kalman Filter 파라미터를 실시간으로 조절하여 최적의 파라미터 찾음, 기존대비 시간 00% 단축
+
+![image](image.png)
+
